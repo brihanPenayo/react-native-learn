@@ -2,10 +2,10 @@ import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
 
 export const ComponentScreen = () => {
-    const TEXT_COMP = "Hola Mundo!"
+    const TEXT_COMP = "Probando"
     return (
         <View style={styles.viewStyle}>
-            <Text style={styles.textStyle}>MiPrimerComponente con View</Text>
+            <Text style={styles.textStyle}>Hola Mundo</Text>
             <Text>{TEXT_COMP}</Text>
         </View>
     )
